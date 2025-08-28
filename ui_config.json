@@ -1,0 +1,46 @@
+{
+  "web_url": "https://www.saucedemo.com/",
+  "keywords": {
+    "login_page": {
+      "username_input": "user-name",
+      "password_input": "password",
+      "login_button": "login-button"
+    },
+    "inventory_page": {
+      "shopping_cart_link_class": "shopping_cart_link"
+    },
+    "cart_page": {
+      "checkout_button": "checkout",
+      "continue_shopping_button": "continue-shopping"
+    },
+    "checkout_step_one_page": {
+      "first_name_input": "first-name",
+      "last_name_input": "last-name",
+      "zip_postal_code_input": "postal-code",
+      "continue_button": "continue"
+    },
+    "checkout_step_two_page": {
+      "item_total_label_class": "summary_subtotal_label",
+      "tax_label_class": "summary_tax_label",
+      "total_label_class": "summary_total_label",
+      "finish_button": "finish"
+    },
+    "checkout_complete_page": {
+      "thank_you_header": "complete-header"
+    }
+  },
+  "users": {
+  "standard_user": "standard_user",
+  "locked_out_user": "secret_sauce"
+  },
+  "checkout_info": {
+    "first_name": "Test",
+    "last_name": "User",
+    "zip_code": "10110"
+  },
+  "products_to_buy": [
+    { "name": "Sauce Labs Bolt T-Shirt", "add_id": "add-to-cart-sauce-labs-bolt-t-shirt" },
+    { "name": "Sauce Labs Bike Light", "add_id": "add-to-cart-sauce-labs-bike-light" },
+    { "name": "Sauce Labs Backpack", "add_id": "add-to-cart-sauce-labs-backpack", "remove_id": "remove-sauce-labs-backpack" }
+  ]
+}

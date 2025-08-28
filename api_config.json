@@ -1,0 +1,17 @@
+{
+  "base_url": "https://reqres.in/api/users",
+  "headers": {
+    "x-api-key": "reqres-free-v1"
+  },
+  "user_data": {
+    "create_user": {
+      "name": "morpheus",
+      "job": "leader"
+    },
+    "update_user": {
+      "name": "morpheus",
+      "job": "zion resident"
+    },
+    "specific_user_id": 2
+  }
+}

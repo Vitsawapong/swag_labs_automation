@@ -58,8 +58,8 @@ class SwagLabsUITest(unittest.TestCase):
             password_field = self.wait.until(EC.presence_of_element_located((By.ID, config_data['keywords']['login_page']['password_input'])))
             login_button = self.wait.until(EC.element_to_be_clickable((By.ID, config_data['keywords']['login_page']['login_button'])))
 
-            username_field.send_keys(config_data['users']['standard_user'])
-            password_field.send_keys(config_data['users']['locked_out_user']) # Password ก็คือ standard_user ตามโจทย์
+            username_field.send_keys(config_data['users']['username'])
+            password_field.send_keys(config_data['users']['password']) # Password ก็คือ standard_user ตามโจทย์
             login_button.click()
 
             self.wait.until(EC.url_contains("inventory.html"))
